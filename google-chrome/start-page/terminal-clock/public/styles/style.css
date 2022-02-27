@@ -1,0 +1,118 @@
+/*? imports */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
+/*? keyframes  */
+@keyframes cursor {
+    0%{opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+div.terminal{
+    border-radius: 15px;
+    background-color: #2E3440;
+    width: 98vw;
+    height: 98vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -49vh 0 0 -49vw;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: #2E3440;
+}
+div.terminal > *:first-child{
+    padding: 10px 2px 2px 10px;
+}
+.line,.output{
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.line > *{
+    font-size: 12pt;
+
+}
+span{
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    color: white;
+}
+div.output{
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    color: white;   
+    font-size: 12pt;
+}
+.user,.pc{
+    color:#5E81AC;
+}
+.separation,.path,.root{
+    color: #88C0D0;
+}
+
+::selection {
+    background-color: currentColor;
+    color: white;
+}
+.cursor{
+    width: 11px;
+    height: 13pt;
+    background-color: white;
+    display: inline-block;
+    animation-name: cursor;
+    animation-duration: 1s;
+    animation: cursor 1s linear infinite ;
+    
+}
+span.firstkey.wrong{
+    color: #BF616A;
+}
+span.firstkey.correct{
+    color: #A3BE8C;
+}
+span.firstkey.root,.path.root,.user.root,.separation.root,.pc.root,.root.t{
+    color: #FFFFFF;
+    font-size: 12pt;
+}
+.hours,.minutes,.day,.month,.year{
+    display: inline-block;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
+a:checked{
+    color: white;
+}
+a::before{
+    content: '*     ';
+}
+.reddit{
+    color: #D08770;
+}
+.face{
+    color: #5E81AC;
+}
+.yt{
+    color: #BF616A;
+}
+.classr{
+    color: #EBCB8B;
+}
+.insta{
+    color: #B48EAD;
+}

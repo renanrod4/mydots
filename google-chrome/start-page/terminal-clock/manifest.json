@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "terminal-clock",
+    "short_name": "terminal-clock",
+    "version": "0.2",
+    "description": "terminal ui in startpage.",
+    "author": "Renanrod4",
+  
+  
+    "chrome_url_overrides": {
+      "newtab": "/src/views/index.html"
+    },
+    "permissions": ["storage"]
+  }
+  

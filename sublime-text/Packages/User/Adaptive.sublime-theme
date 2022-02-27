@@ -1,0 +1,24 @@
+{
+    // http://www.sublimetext.com/docs/3/themes.html
+    "variables": {
+        // "font_face": "system",
+    },
+    "rules": [
+
+        {
+            "class":"puck_control",
+            "content_margin":0
+        },  
+        // {
+        //       "class": "puck_control",
+        //       "parents": [{"class": "sidebar_container"}],
+        //       "content_margin":4
+        // },
+        // {
+        //       "class": "puck_control",
+        //       "parents": [{"class": "overlay_control"}],
+        //       "content_margin":4
+        // }          
+    ],
+    "overlay_scroll_bars": "enabled"
+}

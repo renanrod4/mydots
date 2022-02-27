@@ -1,0 +1,427 @@
+* {
+  all: unset;
+}
+window {
+  background-color: #292E39;
+	color: #D8DEE9;
+  font-family: Museo Sans;
+}
+
+button {
+  all: unset;
+  background-color: #292E39;
+  padding: 10px;
+}
+
+.musicart {
+  background-size: 260px;
+  min-height: 260px;
+  min-width: 260px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.musictitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.musicartist {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.musicbtn button {
+  font-size: 12px;
+}
+
+.musicbtn button:hover {
+  color: #D8DEE9;
+}
+
+.music-slider scale trough {
+	all: unset;
+	background-color: #88C0D0;
+	border-radius: 50px;
+	min-height: 5px;
+  min-width: 240px;
+  margin-bottom: 20px;
+}
+
+.music-slider scale trough highlight {
+	all: unset;
+	background-color: #D8DEE9;
+	color: #000000;
+	border-radius: 10px;
+}
+
+.music-slider slider {
+  all: unset;
+  color: #D8DEE9;
+}
+
+.number_day {
+  padding-top: 10px;
+  font-size: 35px;
+  color: #D8DEE9;
+}
+
+.month {
+  font-weight: bold;
+}
+
+.weather-icon-side {
+  font-size: 45px;
+  font-family: Iosevka;
+  margin: 5px 30px 5px 30px;
+}
+.weather-stat-side {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #D8DEE9;
+}
+
+.temperature-side {
+  font-size: 16px;
+  font-weight: 900;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.musicart-side {
+  background-size: 92px;
+  min-height: 90px;
+  min-width: 90px;
+  margin: 15px 5px 15px 15px;
+  border-radius: 6px;
+}
+.musicinfo-side {
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 5px;
+  font-weight: bold;
+  // margin: 20px;
+  border-radius: 10px;
+  // border: 1px solid white;
+  min-width: 40px;
+}
+.musicbtn-side {
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+.musicbtn-side button {
+  font-size: 16px;
+  padding-right: 30px;
+}
+
+.musicbtn-side button:hover {
+  color: #D8DEE9;
+}
+.pause-play-side {
+  color: #D8DEE9;
+}
+.pause-play-side:hover {
+  color: #D8DEE9;
+}
+
+.time-side {
+  margin: 20px 65px 0px 65px;
+  font-size: 60px;
+}
+.minute-side {
+  color: #D8DEE9;
+}
+.day-side {
+  font-size: 16px;
+  font-weight: bold;
+  color: #A3BE8C;
+}
+
+
+
+
+.sliders-side slider {
+  all: unset;
+  color: #D8DEE9;
+}
+.slider-vol-side {
+  margin-top: 10px;
+}
+.slider-vol-side scale trough highlight {
+	all: unset;
+	background-color: #B48EAD;
+	color: #000000;
+	border-radius: 10px;
+}
+.slider-bright-side scale trough highlight {
+  all: unset;
+	background-color: #5E81AC;
+	color: #000000;
+	border-radius: 10px;
+}
+.slider-ram-side scale trough highlight {
+  all: unset;
+	background-color: #D8DEE9;;
+	color: #000000;
+	border-radius: 10px;
+}
+.slider-battery-side scale trough highlight {
+  all: unset;
+	background-color: #A3BE8C;
+	color: #000000;
+	border-radius: 10px;
+}
+.slider-vol-side scale trough {
+	all: unset;
+	background-color: #88C0D0;
+	border-radius: 50px;
+	min-height: 5px;
+  min-width: 170px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.slider-bright-side scale trough {
+	all: unset;
+	background-color: #88C0D0;
+	border-radius: 50px;
+	min-height: 5px;
+  min-width: 170px;
+  margin-top: 10px;
+  margin-left: 16px;
+}
+.slider-ram-side scale trough {
+	all: unset;
+	background-color: #88C0D0;
+	border-radius: 50px;
+	min-height: 5px;
+  min-width: 170px;
+  margin-top: 10px;
+  margin-left: 17px;
+}
+.slider-battery-side scale trough {
+	all: unset;
+	background-color: #88C0D0;
+	border-radius: 50px;
+	min-height: 5px;
+  min-width: 170px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+
+.label-battery-side, .label-bright-side, .label-ram-side, .label-vol-side{
+  margin-top: 10px;
+  font-family: Iosevka;
+  margin-left: 35px;
+  font-size: 25px;
+}
+.label-bright-side {
+  color: #5E81AC;
+}
+.label-ram-side {
+  font-size: 30px;
+  color: #D8DEE9;
+}
+.label-battery-side {
+  font-size: 18px;
+  color: #A3BE8C;
+}
+.label-vol-side {
+  color: #B48EAD;
+}
+
+.search-side {
+  border-radius: 12px;
+  background-color: #272626;
+  margin: 20px 30px 20px 30px;
+}
+.search-side:hover {
+  color: #D8DEE9;
+}
+.sysbtn button {
+  font-size: 30px;
+}
+.shutdown-side ~ button:hover {
+  color: #D8DEE9;
+}
+.shutdown-side{
+  color: #D8DEE9;
+}
+.shutdown-side:hover{
+  color: #D8DEE9;
+}
+.reboot-side{
+  color: #5E81AC;
+}
+.lock-side{
+  color: #D8DEE9;
+}
+.suspend-side{
+  color: #B48EAD;
+}
+.logout-side{
+  color: #A3BE8C;
+}
+
+.calendar_title {
+  margin: 20px 20px 0px 20px;
+  font-size: 16px;
+}
+
+.search-full {
+  font-size: 50px;
+  margin-right: 5px;
+}
+.search-full:hover {
+  color: #D8DEE9;
+}
+.power-full {
+  font-size: 60px;
+  color: #BF616A;
+}
+.close{
+  font-size: 60px;
+  color:#BF616A;
+}
+.power-full:hover {
+  color: #D8DEE9;
+}
+.reboot-full {
+  font-size: 60px;
+  color: #5E81AC
+}
+.reboot-full:hover {
+  color: #D8DEE9
+}
+.lock-full {
+  font-size: 60px;
+  color: #D8DEE9
+}
+.lock-full:hover {
+  color: #D8DEE9
+}
+.suspend-full {
+  font-size: 60px;
+  color: #B48EAD
+}
+.suspend-full:hover {
+  color: #D8DEE9
+}
+.logout-full {
+  font-size: 60px;
+  color: #A3BE8C
+}
+.logout-full:hover {
+  color: #D8DEE9
+}
+
+.pfp {
+  background-image: url("/home/renan/.config/eww/images/mcgbxk874a781.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center;
+  min-height: 200px;
+  min-width: 200px;
+  margin: 80px 20px 0px 65px;
+  border-radius: 500px;
+}
+.pfptxt {
+  margin-top: 100px;
+  color: #D8DEE9;
+  font-size: 36px;
+}
+.subpfptxt {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #88C0D0;
+}
+
+.weather-icon {
+  font-size: 120px;
+  margin: 0px 0px 0px 40px;
+  font-family: Iosevka;
+}
+.weather-stat {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  color: #81A1C1;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: 900;
+}
+.weather-quote {
+  margin: 25px 10px 40px 10px;
+  font-size: 20px;
+}
+.weather-quote-head, .weather-quote-tail {
+  font-size: 18px;
+  // font-weight: bold;
+  // color: #A3BE8C
+}
+
+.l1, .l2, .l3, .l4, .l5, .l6 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.home-dir {
+  margin: 0px;
+}
+.l1:hover, .l3:hover, .l4:hover, .l6:hover {
+  color: #88C0D0;
+}
+.l1, .l6 {
+ color: #5E81AC;
+}
+.l2, .l5 {
+ color: #D8DEE9;
+}
+.l3, .l4 {
+ color: #B48EAD;
+}
+.l5:hover, .l2:hover {
+  color: #88C0D0;
+}
+
+.quote-main {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  // margin-bottom: 20px;
+  margin-left: 20px;
+  color: #A5b3c0;
+}
+
+
+.screenshot-icon {
+  color: #D8DEE9;
+  font-size: 60px;
+  margin-right: 5px;
+  font-family: Iosevka;
+}
+.screenshot-icon:hover{
+  color: #88C0D0;
+}
+
+.vpn-icon {
+  font-size: 60px;
+  margin-right: 5px;
+}
+.vpn-icon:hover {
+  color: #D8DEE9;
+}
+.disturb-icon {
+   font-size: 60px;
+}
+.disturb-icon:hover {
+  color: #D8DEE9;
+}
+.search-full:hover{
+  color: #88C0D0;
+}
