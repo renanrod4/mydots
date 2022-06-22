@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+import os
+
+os.system("""rofi -show drun -theme /home/renan/.config/rofi/theme-launcher.rasi""")
+
+os.system("rm -rf ${HOME}/.cache/rofi*")
+

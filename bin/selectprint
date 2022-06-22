@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+import os
+import time
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
+os.system("scrot -s -q 100")
